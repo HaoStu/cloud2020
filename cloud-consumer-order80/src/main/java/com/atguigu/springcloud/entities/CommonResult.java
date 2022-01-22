@@ -1,4 +1,4 @@
-package com.atguigu.cloudconsumerorder80.entities;
+package com.atguigu.springcloud.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
