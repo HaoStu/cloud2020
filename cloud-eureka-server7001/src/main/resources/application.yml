@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost #eureka\u670D\u52A1\u7AEF\u7684\u5B9E\u4F8B\u540D\u79F0
+    hostname: eureka7001.com #eureka\u670D\u52A1\u7AEF\u7684\u5B9E\u4F8B\u540D\u79F0
   client:
     #false\u8868\u793A\u4E0D\u5411\u6CE8\u518C\u4E2D\u5FC3\u6CE8\u518C\u81EA\u5DF1\u3002
     register-with-eureka: false
@@ -11,4 +11,4 @@ eureka:
     fetch-registry: false
     service-url:
     #\u8BBE\u7F6E\u4E0EEureka Server\u4EA4\u4E92\u7684\u5730\u5740\u67E5\u8BE2\u670D\u52A1\u548C\u6CE8\u518C\u670D\u52A1\u90FD\u9700\u8981\u4F9D\u8D56\u8FD9\u4E2A\u5730\u5740\u3002
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+      defaultZone: http://eureka7002.com:7002/eureka
