@@ -21,6 +21,14 @@ spring:
           uri: lb://cloud-payment-service   #\u5339\u914D\u540E\u63D0\u4F9B\u670D\u52A1\u7684\u8DEF\u7531\u5730\u5740
           predicates:
             - Path=/payment/lb/**   #\u65AD\u8A00,\u8DEF\u5F84\u76F8\u5339\u914D\u7684\u8FDB\u884C\u8DEF\u7531
+#            - After = 2020-03-08T10:59:34.102+08:00[Asia/Shanghai]
+#            - Before = 2021-03-08T10:59:34.102+08:00[Asia/Shanghai]
+#            - Between=2020-03-08T10:59:34.102+08:00[Asia/Shanghai] ,  2022-03-08T10:59:34.102+08:00[Asia/Shanghai]
+#            - Cookie=username,zhangshuai    #\u5E76\u4E14Cookie\u662Fusername=zhangshuai\u624D\u80FD\u8BBF\u95EE
+#            - Header=X-Request-Id, \d+   #\u8BF7\u6C42\u5934\u4E2D\u8981\u6709X-Request-Id\u5C5E\u6027\u5E76\u4E14\u503C\u4E3A\u6574\u6570\u7684\u6B63\u5219\u8868\u8FBE\u5F0F
+#            - Host=**.atguigu.com
+#            - Method=GET
+#            - Query=username, \d+ #\u8981\u6709\u53C2\u6570\u540D\u79F0\u5E76\u4E14\u662F\u6B63\u6574\u6570\u624D\u80FD\u8DEF\u7531
 
 eureka:
   instance:
