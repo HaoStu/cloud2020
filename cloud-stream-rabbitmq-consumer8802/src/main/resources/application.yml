@@ -21,6 +21,7 @@ spring:
               destination: studyExchange # \u8868\u793A\u8981\u4F7F\u7528\u7684Exchange\u540D\u79F0\u5B9A\u4E49
               content-type: application/json # \u8BBE\u7F6E\u6D88\u606F\u7C7B\u578B\uFF0C\u672C\u6B21\u4E3Ajson\uFF0C\u6587\u672C\u5219\u8BBE\u7F6E\u201Ctext/plain\u201D
               binder: defaultRabbit  # \u8BBE\u7F6E\u8981\u7ED1\u5B9A\u7684\u6D88\u606F\u670D\u52A1\u7684\u5177\u4F53\u8BBE\u7F6E
+              group: atguiguB
 
 eureka:
   client: # \u5BA2\u6237\u7AEF\u8FDB\u884CEureka\u6CE8\u518C\u7684\u914D\u7F6E
