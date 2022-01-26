@@ -31,4 +31,11 @@ public class FlowLimitController {
         int age = 10 / 0;
         return "------testD";
     }
+
+    @GetMapping("/testE")
+    public String testE() {
+        log.info("testE 测试异常数");
+        int age = 10 / 0;
+        return "------testE 测试异常数";
+    }
 }
